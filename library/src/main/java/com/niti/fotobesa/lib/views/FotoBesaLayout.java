@@ -86,7 +86,7 @@ public class FotoBesaLayout extends LinearLayout implements View.OnTouchListener
     }
 
     private void init(Context context) {
-        LayoutInflater.from(context).inflate(R.layout.listbuddies, this, true);
+        LayoutInflater.from(context).inflate(R.layout.fotobesa, this, true);
         mListViewLeft = (ObservableListView) findViewById(R.id.list_left);
         mListViewRight = (ObservableListView) findViewById(R.id.list_right);
         mLastViewTouchId = mListViewRight.getId();

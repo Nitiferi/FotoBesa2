@@ -32,7 +32,7 @@
         android:layout_height="@dimen/divider_height"
         android:background="@color/frame" />
 
-    <com.jpardogo.android.listbuddies.ui.views.DrawInsetsFrameLayout
+    <com.niti.android.fotobesa.ui.views.DrawInsetsFrameLayout
         android:id="@+id/insets_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
